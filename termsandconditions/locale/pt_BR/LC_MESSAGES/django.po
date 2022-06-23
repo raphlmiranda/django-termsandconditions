@@ -81,6 +81,10 @@ msgstr "Nossos Termos e Condições Mudaram"
 msgid "Close"
 msgstr "Fechar"
 
+#: .\termsandconditions\templates\termsandconditions\snippets\termsandconditions.html:20
+msgid "Changes have been made to our"
+msgstr "Foram feitas alterações aos nossos"
+
 #: .\termsandconditions\templates\termsandconditions\snippets\termsandconditions.html:26
 msgid "Please, review and accept the changes to prevent future interruptions."
 msgstr "Por favor, revise e aceite as alterações para evitar interrupções futuras."
