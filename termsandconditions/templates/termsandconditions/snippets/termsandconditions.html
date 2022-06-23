@@ -17,7 +17,7 @@
         </div>
         <div id="toc-content">
             <div id="toc-body">
-                <span>Changes have been made to our </span>
+                <span>{% trans "Changes have been made to our" %}</span>
                 {% for terms in not_agreed_terms %}
                     {% if not forloop.first and not forloop.last %}<span>, </span>{% endif %}
                     {% if forloop.last and not_agreed_terms|length > 2 %}<span>, and </span>{% elif forloop.last and not_agreed_terms|length > 1 %}<span> and </span>{% endif %}
